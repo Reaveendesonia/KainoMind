@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plataforma de Apoio a Empreendedores</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <img src="KainoMind-logo-Branco-sem-fundo.png" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+                Somos uma plataforma dedicada a ajudar empreendedores a alcançarem seus objetivos através de mentoria, acompanhamento e recursos personalizados.
+           
+        
+            <a href="https://kainominds.blogspot.com/" target="_blank" 
+            style="padding: 2.5px 10px; background-color: rgb(255, 94, 0); 
+            color: white; text-decoration: none; border-radius: 5px;">
+            Visitar o blogue da empresa
+</a>
+
+                    ></a>
+
+                </button>
+            </p>
+        </section>
+
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <ul>
+                <li>Artigos e e-books</li>
+                <li>Webinars e cursos online</li>
+                <li>Ferramentas de planejamento e gestão</li>
+                <li>acompanhamento personalizado para o teu negócio</li>
+            </ul>
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastro</h2>
+            <form action="processa_cadastro.php" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required />
+
+                <label for="empresa">Nome da Empresa ou Projeto:</label>
+                <input type="text" id="empresa" name="empresa" required />
+
+                <label for="area">Área de Atuação:</label>
+                <input type="text" id="area" name="area" />
+
+                <label for="objetivo">Objetivo ao Buscar Mentoria:</label>
+                <textarea id="objetivo" name="objetivo" rows="4"></textarea>
+
+                <button type="submit">Enviar Cadastro</button>
+            </form>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para dúvidas e suporte, envie um e-mail para <a href="mailto:contato@empreendedores.com">Kainomind@gmail.com</a> ou ligue para (+258) 870668445.</p>
+        </section>
+
+        <div class="cta">
+            <h3>Pronto para começar sua jornada empreendedora?</h3>
+            <button>Cadastre-se Agora</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Plataforma de Apoio a Empreendedores. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
